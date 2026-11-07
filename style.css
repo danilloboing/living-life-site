@@ -1,0 +1,15 @@
+/* The game's paper and ink. */
+:root { --page: #F2E8D5; --card: #FAF3E3; --ink: #1B1512; --muted: #5E534A; --line: #E2D4B6; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--page); color: var(--ink); font: 17px/1.6 Georgia, "Times New Roman", serif; }
+main { max-width: 680px; margin: 0 auto; padding: 32px 20px 48px; background: var(--card); min-height: 100vh; border-left: 2px solid var(--ink); border-right: 2px solid var(--ink); }
+h1 { font-family: "Arial Black", Helvetica, sans-serif; text-transform: uppercase; font-size: 28px; line-height: 1.2; margin: 16px 0 4px; }
+h2 { font-family: Helvetica, Arial, sans-serif; font-size: 18px; margin: 28px 0 4px; }
+p { margin: 0 0 12px; }
+a { color: var(--ink); }
+.brand { font-family: "Arial Black", Helvetica, sans-serif; text-transform: uppercase; margin: 0; }
+.brand a { text-decoration: none; }
+nav, footer, .updated { font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: var(--muted); }
+footer { margin-top: 40px; padding-top: 16px; border-top: 2px solid var(--line); }
+.languages { padding-left: 20px; }
+.languages li { margin-bottom: 12px; }
